@@ -1,0 +1,10 @@
+### Create a new friend
+POST http://localhost:8080/friend
+Content-Type: application/json
+
+{
+  "name": "Anshika Singh"
+}
+
+### Check confirmation directly
+GET http://localhost:8080/crud/confirm/1
